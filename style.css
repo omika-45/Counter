@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Kalam:wght@300;400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+body{
+  font-family: "Caveat", cursive;
+  background-color: #B35252;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: navajowhite;
+}
+h1{
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  font-size: 3.5rem;
+}
+#count{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 5px;
+}
+#increase, #decrease, #cc{
+  min-width: 45px;
+  min-height: 45px;
+  font-size: 15px;
+  border: none;
+  padding: 15px;
+  background-color: #3A305E;
+  border-radius: 10px;
+  color: #B5B2C0;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
